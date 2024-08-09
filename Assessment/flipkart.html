@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone</title>
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2874f0;
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        #home {
+            text-align: center;
+            background-color: #f1f1f1;
+            padding: 50px 0;
+        }
+
+        #about, #contact {
+            background-color: #f9f9f9;
+        }
+
+        #products {
+            background-color: #ffffff;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .product-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #2874f0;
+            color: rgba(210, 216, 14, 0.904);
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" style="background-color: rgb(208, 237, 19);">
+        <img src="Screenshot 2024-08-08 115054.png" width="150px" height="150px">
+        <h1>Welcome to Flipkart</h1>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are one of the leading e-commerce platforms offering a wide range of products.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <h3>Product 1</h3>
+                <img src="Screenshot 2024-08-08 113358.png" width="150px" height="150px" style="margin-left: auto;margin-right: auto;display: block;">
+                <p>Price: $10</p>
+            </div>
+            <div class="product-item">
+                <h3>Product 2</h3>
+                <img src="wired earphones2024-08-08 114039.png" width="150px" height="150px" style="margin-left: auto;margin-right: auto;display: block;">
+                <p>Price: $20</p>
+            </div>
+            <div class="product-item">
+            <h3>Product 3</h3>
+           <img src="Screenshot 2024-08-08 114520.png" width="150px"  height="150px"   style="margin-left: auto;margin-right: auto;display: block;">
+           <p>Price: $30</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@flipkart.com</p>
+        <p>Phone: +1234567890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Flipkart Clone. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .search-bar {
+            margin: 20px auto;
+            width: 600px;
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .search-bar input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .results {
+            width: 600px;
+            margin: 20px auto;
+        }
+        .result {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .result h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .result a {
+            text-decoration: none;
+            color: #1a0dab;
+        }
+        .result p {
+            margin: 5px 0;
+            color: #545454;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-bar">
+        <form action="/search" method="get">
+            <input type="text" name="q" placeholder="Search...">
+            <input type="submit" value="Google Search">
+        </form>
+    </div>
+    <div class="results">
+        <div class="result">
+            <h3><a href="https://example.com">Example Domain</a></h3>
+            <p>This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.</p>
+            <cite>https://example.com</cite>
+        </div>
+        <div class="result">
+            <h3><a href="https://anotherexample.com">Another Example Domain</a></h3>
+            <p>This is another example of a search result. This text is meant to provide a brief description of the content found on the linked page.</p>
+            <cite>https://anotherexample.com</cite>
+        </div>
+    </div>
+</body>
+</html>
